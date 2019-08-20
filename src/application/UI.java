@@ -102,6 +102,7 @@ public class UI {
 		List<ChessPiece> white  = captured.stream().filter(x -> x.getColor() == Color.WHITE).collect(Collectors.toList());
 		List<ChessPiece> black  = captured.stream().filter(x -> x.getColor() == Color.BLACK).collect(Collectors.toList());
 		
+		
 		System.out.println("Captured pieces: ");
 		System.out.print("White: ");
 		System.out.print(ANSI_WHITE);
